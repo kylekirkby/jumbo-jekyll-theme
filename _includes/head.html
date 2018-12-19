@@ -11,17 +11,14 @@
     </title>
     {% if site.data.settings.critical_css %}
         <style>
-            {% asset_source critical.css %}
+            {% asset_source main-critical.css %}
         </style>
     {% endif %}
     {% include css.html %}
     <link rel="icon" href="{% if site.data.settings.favicon %}
     {% asset_path '{{site.data.settings.favicon}}'  %}
     {% endif %}" type="image/png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     {% if site.data.settings.google.tag_manager %}
       {% include gtm-script.html %}
     {% endif %}

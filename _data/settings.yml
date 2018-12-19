@@ -2,6 +2,9 @@
 favicon: favicon.png
 # Placeholder for Missing Images
 placeholder: /assets/images/placeholder.png
+# Critical CSS toggle
+# add your critical css to assets/css/app/critical.scss
+critical_css: false
 # Footer Newsletter toggle.
 newsletter:
     enabled: true

@@ -1,4 +1,5 @@
 <head>
+    <meta charset="UTF-8">
     <title>
         {% if page.title %}
                  {{page.title}} - {{site.title}}
@@ -8,9 +9,12 @@
                 {{site.title}}
         {% endif %}
     </title>
-    
+    {% if site.data.settings.critical_css %}
+        <style>
+            {% asset_source critical.css %}
+        </style>
+    {% endif %}
     {% include css.html %}
-    
     <link rel="icon" href="{% if site.data.settings.favicon %}
     {% asset_path '{{site.data.settings.favicon}}'  %}
     {% endif %}" type="image/png" />

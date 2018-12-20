@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     s.add_runtime_dependency "bootstrap-sass", "~> 3.3.6"
     s.add_runtime_dependency "jekyll-redirect-from", "~> 0.12"
     s.add_runtime_dependency "jekyll-tidy", "~> 0.2.2"
-    s.add_runtime_dependency "jekyll-assets", "2.4.0"
+    s.add_runtime_dependency "jekyll-assets", "3.0.12"
     s.add_runtime_dependency 'jekyll-data', '>0'
     s.add_runtime_dependency 'uglifier', '>0'
     s.add_runtime_dependency 'autoprefixer-rails', '~> 9.0', '>= 9.0.0'

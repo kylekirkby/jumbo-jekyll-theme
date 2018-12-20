@@ -4,7 +4,7 @@ favicon: favicon.png
 placeholder: /assets/images/placeholder.png
 # Critical CSS toggle
 # add your critical css to assets/css/app/critical.scss
-critical_css: false
+critical_css: true
 # Footer Newsletter toggle.
 newsletter:
     enabled: true

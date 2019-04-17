@@ -24,12 +24,7 @@ $(function () {
         $table.find('tr:lt(' + numShown + ')').show();
     });
     $('#all').click(function() {
-        numShown = numRows;
-        // no more "show more" if done
-        if (numShown >= numRows) {
-            $('#all').remove();
-        }
-        $table.find('tr:lt(' + numShown + ')').show();
+        $table.find('tr:lt(' + numRows + ')').show();
     });
 
 });

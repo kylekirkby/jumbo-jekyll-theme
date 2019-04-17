@@ -1,5 +1,5 @@
 # Custom Favicon
-favicon: favicon.png
+favicon: /assets/images/favicon.png
 # Placeholder for Missing Images
 placeholder: /assets/images/placeholder.png
 # Support for http2 push features
@@ -94,7 +94,7 @@ mailchimp:
     id: af6cf590b0
 # # Breadcrumb Settings
 # breadcrumb:
-#     image: breadcrumb-image.jpg
+#     image: /assets/images/breadcrumb-image.jpg
 
 # edit-on-github:
 #     enabled: true

@@ -112,7 +112,6 @@ plugins:
     - bootstrap-sass
     - uglifier
     - jekyll-assets
-    - jekyll-theme-assets-updated
     - jekyll-tidy
     - jekyll-redirect-from
     - jekyll-responsive-image

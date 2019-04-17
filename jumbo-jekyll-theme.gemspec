@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
     s.add_runtime_dependency 'autoprefixer-rails', '~> 9.0', '>= 9.0.0'
     s.add_runtime_dependency 'jekyll-paginate-v2', '>0'
     s.add_runtime_dependency 'jekyll-feed', '>0'
-    # s.add_runtime_dependency 'jekyll-theme-assets-updated', '~> 1.1'
+    s.add_runtime_dependency 'jekyll-theme-assets-updated', '~> 1.1'
     s.add_runtime_dependency 'jekyll-responsive-image'
     s.add_runtime_dependency 'jekyll-last-modified-at'
     s.add_runtime_dependency 'hash-joiner', '~> 0'

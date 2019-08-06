@@ -1,13 +1,6 @@
 ---
 title: Guides
-date: 2018-11-23 12:00:00
-description: >-
-    This blog post will give you an overview of how to get started with the jumbo-jekyll-theme
-image:
-    path: /assets/images/content/background-image2.png
-    featured: true
-author: kyle
-categories: [blog, guides]
-keywords: jekyll, note, theme, jumbo-jekyll-theme
+date: 2018-11-23T12:00:00.000Z
+author: Kyle Kirkby
 ---
 This blog post will give you an overview of how to get started with the jumbo-jekyll-theme

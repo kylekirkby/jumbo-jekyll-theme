@@ -1,27 +1,14 @@
 ---
-layout: jumbotron-container
-permalink: /collaborate/
-title: Home
+title: Home test
 description: >-
-    The jumbo-jekyll-theme is a Bootstrap3 Jekyll theme for building
-    superfast static websites.
-sticky-tab-bar:
-    - title: Home
-      url: /
-      active: true
-    - title: Get Started
-      url: /get-started/
+  The jumbo-jekyll-theme is a Bootstrap3 Jekyll theme for building superfast
+  static websites.
+permalink: /collaborate/
 jumbotron:
-    carousel-images:
-        - /assets/images/content/background-image1.jpg
-        - /assets/images/content/background-image2.png
-        - /assets/images/content/background-image3.jpg
-    animation: fade
-    buttons:
-        - title: View on GitHub
-          url: https://github.com/kylekirkby/jumbo-jekyll-theme
-          icon: fa fa-github
-
+  carousel-images:
+    - /assets/images/content/background-image1.jpg
+    - /assets/images/content/background-image2.png
+    - /assets/images/content/background-image3.jpg
 ---
 # Collaborate
 

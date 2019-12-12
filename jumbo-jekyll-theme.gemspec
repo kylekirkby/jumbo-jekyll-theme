@@ -27,7 +27,6 @@ Gem::Specification.new do |spec|
     # spec.add_runtime_dependency "jekyll-picture-tag-latest", ">0"
     spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.2"
     spec.add_runtime_dependency "jekyll-responsive-image", "~> 1.0.1"
-    #spec.add_runtime_dependency "jekyll-sitemap", "1.4.0"
     spec.add_runtime_dependency "jekyll-readme-index", "0.2"
     spec.add_runtime_dependency "bootstrap-sass", "~> 3.4.1"
     spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.12"
@@ -49,6 +48,7 @@ Gem::Specification.new do |spec|
 
     #spec.add_runtime_dependency "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
     # Development Dependencies
+    spec.add_development_dependency "jekyll-sitemap", "1.4.0"
     spec.add_development_dependency "bundler", "> 1.16.1"
     spec.add_development_dependency "rake"
-  end
+end
